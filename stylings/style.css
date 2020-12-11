@@ -4,11 +4,85 @@
     --dark: #222629;
     --dark-gray: #474b4f;
     --gray: #6b6e70;
-    --font-1: font-family: 'Work Sans', sans-serif;
-    --font-2: font-family: 'Taviraj', serif;
+    --font-1: ;font-family: 'Work Sans', sans-serif;
+    /* --font-2: ;font-family: 'Taviraj', serif; */
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: var(--font-1);
+}
+
+/* Header */
+
+
+
+
+header{
+    padding: 20px 35px;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;   
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+}
+
+.fa-code{
+    color: var(--light-green);
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover{
+    color: var(--light-green);
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px --da;
+    
+}
+
+
+/* Header End */
+
+/* Hero Section */
+
+/* Hero Section End */
+
+/* About Me */
+#about-me img{
+    width: 200px;
+    height: 200px;
+}
+/* About Me End */
