@@ -1,0 +1,14 @@
+:root{
+    --dark-green: #61892f;
+    --light-green: #86c232;
+    --dark: #222629;
+    --dark-gray: #474b4f;
+    --gray: #6b6e70;
+    --font-1: font-family: 'Work Sans', sans-serif;
+    --font-2: font-family: 'Taviraj', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
