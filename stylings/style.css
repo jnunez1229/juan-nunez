@@ -112,9 +112,10 @@ header nav ul li a:hover{
 }
 /* Hero Section End */
 
-/* About Me */
+/* About Me Section */
 #about-me{
     background: var(--light-green);
+    padding: 30px 0 50px;
 }
 
 .bio{
@@ -122,6 +123,7 @@ header nav ul li a:hover{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .bio img{
@@ -136,4 +138,48 @@ header nav ul li a:hover{
     font-family: 'Taviraj', serif;
     font-size: 1.5em;
 }
-/* About Me End */
+/* About Me Section End */
+
+/* Work Section*/
+
+/* Work Section End */
+
+/* Footer Section */
+#contact-me{
+    background: var(--dark);
+    color: white;
+    padding: 30px 0 50px;
+}
+
+.contact-head{
+    margin: 0 auto 35px auto;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--light-green);
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 4px;
+    width: 20%;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.contacts a{
+    color: white;
+    margin: 0 1em;
+}
+
+.contacts a:hover{
+    color: var(--gray);
+}
+
+footer h3{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Taviraj', serif;
+    font-size: 1em;
+    letter-spacing: .2em;
+}
+/* Footer Section End */
