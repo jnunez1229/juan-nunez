@@ -17,13 +17,24 @@ body{
     font-family: var(--font-1);
 }
 
+.section-head{
+    font-weight: 700;
+    font-size: 3em;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    border-bottom: 3px solid;
+    text-align: center;
+    width: 30%;
+
+}
+
 /* Header */
 
 
 
 
 header{
-    padding: 20px 35px;
+    padding: 15px 35px;
     background-color: var(--dark);
     display: flex;
     justify-content: space-between;
@@ -78,11 +89,51 @@ header nav ul li a:hover{
 
 /* Hero Section */
 
+.hero{
+    min-height: 400px;
+    background-image: url(../images/branko-stancevic-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+}
+
+.hero h2{
+    font-weight: 700;
+    font-size: 4em;
+    margin-right: 40px;
+}
+
+.hero h2 span {
+    color: var(--gray);
+}
 /* Hero Section End */
 
 /* About Me */
-#about-me img{
-    width: 200px;
-    height: 200px;
+#about-me{
+    background: var(--light-green);
+}
+
+.bio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bio img{
+    height: 353px;
+    width: 262px;
+    border: 2px solid var(--gray);
+}
+
+.bio p {
+    text-align: left;
+    max-width: 50%;
+    font-family: 'Taviraj', serif;
+    font-size: 1.5em;
 }
 /* About Me End */
