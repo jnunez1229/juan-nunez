@@ -295,6 +295,8 @@ footer h3{
 /* Footer Section End */
 
 @media screen and (max-width: 980px){
+    /* Header */
+
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -316,26 +318,41 @@ footer h3{
         font-size: 20px;
     }
 
+    /* Hero */
+
     .hero h2{
         margin: 0 auto;
     }
 
+    /* Work */
     .grid-container{
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media screen and (max-width: 660px){
-    .hero h2{
-        font-size: 3.5em;
-    }
+    
     .work-head, .section-head{
         font-size: 3em;
         letter-spacing: 1px;
     }
+
+    /* Hero */
+
+    .hero h2{
+        font-size: 3.5em;
+    }
+
     .bio p{
         flex: 100%;
         text-align: center;
+    }
+
+    /* Work */
+
+    .work-1{
+        grid-column: 1;
+        grid-row: 1;
     }
 
     .label{
@@ -343,6 +360,8 @@ footer h3{
         width: 100%;
         text-align: center;
         }
+    
+    /* Contact Me */
 
     #contact-me div{
         justify-content: center;
@@ -360,14 +379,14 @@ footer h3{
         width: 100%;
     }
 
-    .work-1{
-        grid-column: 1;
-        grid-row: 1;
-    }
+    
 
 
 }
 @media screen and (max-width: 575px){
+
+    /* Work */
+    
     .grid-container{
         grid-template-columns: 1fr;
     }
