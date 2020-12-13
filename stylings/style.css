@@ -95,10 +95,12 @@ header nav ul li a:hover{
     font-weight: 700;
     font-size: 4em;
     margin-right: 40px;
+    text-shadow: 10px 10px var(--dark);
+    color: white;
 }
 
 .hero h2 span {
-    color: var(--gray);
+    color: var(--light-green);
 }
 /* Hero Section End */
 
@@ -139,6 +141,7 @@ header nav ul li a:hover{
 .bio p {
     text-align: left;
     max-width: 50%;
+    min-width: 400px;
     font-family: 'Taviraj', serif;
     font-size: 1.5em;
     line-height: 2;
@@ -289,3 +292,45 @@ footer h3{
     letter-spacing: .2em;
 }
 /* Footer Section End */
+
+@media screen and (max-width: 980px){
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero h2{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    .bio p{
+        flex: 100%;
+        text-align: center;
+    }
+
+    #contact-me div{
+        display: block;
+    }
+
+
+
+@media screen and (max-width: 575px)
