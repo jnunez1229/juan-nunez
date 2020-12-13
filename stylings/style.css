@@ -366,7 +366,7 @@ footer h3{
     }
 
 
-
+}
 @media screen and (max-width: 575px){
     .grid-container{
         grid-template-columns: 1fr;
