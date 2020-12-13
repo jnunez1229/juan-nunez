@@ -93,7 +93,8 @@ header nav ul li a:hover{
 
 .hero h2{
     font-weight: 700;
-    font-size: 4em;
+    font-size: 4.5em;
+    letter-spacing: 1.2px;
     margin-right: 40px;
     text-shadow: 10px 10px var(--dark);
     color: white;
@@ -113,7 +114,7 @@ header nav ul li a:hover{
 .section-head{
     color: var(--dark);
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.6em;
     margin: 0 auto 35px auto;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--light-green);
@@ -159,7 +160,7 @@ header nav ul li a:hover{
 .work-head{
     color: white;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3.6em;
     margin: 0 auto 35px auto;
     padding-bottom: 10px;
     border-bottom: 3px solid var(--dark);
@@ -245,7 +246,7 @@ header nav ul li a:hover{
 .work-5{
     background-image: url(../images/Frontend\ Mentor\ \ \ Profile\ card\ component.png);
     background-size: 120%;
-    background-position: center;
+    background-position: cover;
 }
 /* Work Section End */
 
@@ -258,6 +259,7 @@ header nav ul li a:hover{
 
 #contact-me div{
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
 }
 .contact-head{
@@ -266,13 +268,12 @@ header nav ul li a:hover{
     text-align: right;
     font-size: 2em;
     letter-spacing: 4px;
-    width: 100%;
-    min-width: 224px;
+    width: 50%;
+    min-width: 300px;
 }
 .contacts{
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
 }
 .contacts a{
     color: var(--gray);
@@ -318,19 +319,58 @@ footer h3{
     .hero h2{
         margin: 0 auto;
     }
+
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width: 660px){
-
+    .hero h2{
+        font-size: 3.5em;
+    }
+    .work-head, .section-head{
+        font-size: 3em;
+        letter-spacing: 1px;
+    }
     .bio p{
         flex: 100%;
         text-align: center;
     }
 
+    .label{
+        border-radius: 0;
+        width: 100%;
+        text-align: center;
+        }
+
     #contact-me div{
-        display: block;
+        justify-content: center;
+    }
+
+    #contact-me h2{
+        flex: 1 100%;
+        text-align: center;
+        border-right: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .contacts{
+        width: 100%;
+    }
+
+    .work-1{
+        grid-column: 1;
+        grid-row: 1;
     }
 
 
 
-@media screen and (max-width: 575px)
+@media screen and (max-width: 575px){
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+
+    
+}
