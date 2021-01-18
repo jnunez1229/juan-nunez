@@ -11,47 +11,41 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: var(--font-1);
 }
 
-/* Header */
 
-header{
-    padding: 5px 35px;
+#mainNavbar .nav-link{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover{  
+    color:var(--light-green);
+}
+
+#mainNavbar .navbar-brand{
+    color: var(--gray);
+}
+
+.navbar.scrolled{
     background-color: var(--dark);
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;   
+    transition: background-color 200ms;
 }
-
-header h1{
-    font-weight: bold;
-    font-size: 36px;
-    margin: 0;
-}
-
 .fa-code{
     color: var(--light-green);
 }
 
-header a{
-    text-decoration: none;
-    color: white;
-}
+
 
 .resume{
     color: var(--gray);
 }
 
-header nav {
-    margin: 7px 0;
-}
+
 
 header nav ul{
     display: flex;
