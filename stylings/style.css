@@ -1,6 +1,6 @@
 :root{
     --dark-green: #61892f;
-    --light-green: #86c232;
+    --light-green: #3fff6c;
     --dark: #222629;
     --dark-gray: #474b4f;
     --gray: #6b6e70;
@@ -32,48 +32,25 @@ body{
 }
 
 .navbar.scrolled{
-    background-color: var(--dark);
+    background-color: var(--dark-gray);
     transition: background-color 200ms;
 }
 .fa-code{
     color: var(--light-green);
 }
 
-
-
-.resume{
-    color: var(--gray);
-}
-
-
-
-header nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-header nav ul li a{
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-}
-
-header nav ul li a:hover{
-    color: var(--light-green);
-    text-decoration: underline;
-    text-shadow: 1px 1px 2px --da;
-    
-}
-
-
 /* Header End */
 
 /* Hero Section */
-
-.hero{
+#vanta-canvas{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+/* .hero{
     min-height: 400px;
     background-image: url(../images/branko-stancevic-unsplash.jpg);
     background-size: cover;
@@ -83,20 +60,31 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     align-items: center;
     color: white;
-}
+} */
 
+.hero div{
+    margin-right: 30px;
+}
 .hero h2{
-    font-weight: 700;
+    font-weight: 400;
     font-size: 4.5em;
     letter-spacing: 1.2px;
-    margin-right: 40px;
-    text-shadow: 10px 10px var(--dark);
-    color: white;
-}
-
-.hero h2 span {
+    
+    /* text-shadow: 5px 5px var(--dark); */
     color: var(--light-green);
 }
+
+.hero h3{
+    font-weight: 300;
+    font-size: 2.2em;
+    letter-spacing: 1.2px;
+    color: white;
+    text-align: end;
+}
+
+/* .hero h2 span {
+    color: var(--dark);
+} */
 /* Hero Section End */
 
 /* About Me Section */
@@ -148,7 +136,7 @@ header nav ul li a:hover{
 /* Work Section*/
 #work{
     padding: 30px 0 50px;
-    background: var(--light-green);   
+    background: var(--dark-gray);   
 }
 
 .work-head{
@@ -291,26 +279,7 @@ footer h3{
 @media screen and (max-width: 980px){
     /* Header */
 
-    header {
-        padding-bottom: 0;
-        justify-content: center;
-        position: relative;
-    }
     
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-    
-    header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-    }
-    
-    header nav ul li a {
-        font-size: 20px;
-    }
 
     /* Hero */
 
