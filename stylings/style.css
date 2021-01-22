@@ -50,17 +50,6 @@ body{
     align-items: flex-end;
     
 }
-/* .hero{
-    min-height: 400px;
-    background-image: url(../images/branko-stancevic-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: center;
-    color: white;
-} */
 
 .hero div{
     margin-right: 30px;
@@ -82,24 +71,22 @@ body{
     text-align: end;
 }
 
-/* .hero h2 span {
-    color: var(--dark);
-} */
+
 /* Hero Section End */
 
 /* About Me Section */
 #about-me{
-    background: white;
-    padding: 30px 0 50px;
+    /* background: white;
+    padding: 30px 0 50px; */
 }
 
 .section-head{
     color: var(--dark);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 3.6em;
     margin: 0 auto 35px auto;
     padding-bottom: 10px;
-    border-bottom: 3px solid var(--light-green);
+    border-bottom: 3px solid var(--gray);
     text-align: center;
     width: 30%;
     min-width: 355px;
@@ -107,28 +94,24 @@ body{
 }
 
 .bio{
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
+    flex-wrap: wrap; */
 }
 
 .bio img{
-    height: 353px;
-    width: 262px;
-    border: 6px solid var(--gray);
-    border-radius: 10px;
+    
+    max-width: 353px; 
 }
 
 .bio p {
-    text-align: left;
+    /* text-align: left;
     max-width: 50%;
-    min-width: 400px;
-    font-family: 'Taviraj', serif;
+    min-width: 400px; */
     font-size: 1.5em;
     line-height: 2;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--dark);
 }
 /* About Me Section End */
@@ -136,16 +119,16 @@ body{
 /* Work Section*/
 #work{
     padding: 30px 0 50px;
-    background: var(--dark-gray);   
+    background: var(--dark-gray);  
 }
 
 .work-head{
     color: white;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 3.6em;
     margin: 0 auto 35px auto;
     padding-bottom: 10px;
-    border-bottom: 3px solid var(--dark);
+    border-bottom: 3px solid var(--light-green);
     text-align: center;
     width: 30%;
     min-width: 228px;
@@ -163,7 +146,7 @@ body{
 
 .grid-item{
     display: flex;
-    border: 3px solid var(--dark-gray);
+    border: 3px solid var(--gray);
     width: 100%;
     min-height: 200px;
     border-radius: 5px;
@@ -196,6 +179,7 @@ body{
 
 .label h3{
     font-size: 2em;
+    font-weight: 400;
     color: white;
 }
 
@@ -243,12 +227,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+    align-items: center;
 }
 .contact-head{
     padding-right: 10px;
     border-right: 2px solid var(--light-green);
     text-align: right;
     font-size: 2em;
+    font-weight: 400;
     letter-spacing: 4px;
     width: 50%;
     min-width: 300px;
