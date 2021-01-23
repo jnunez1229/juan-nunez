@@ -32,7 +32,7 @@ body{
 }
 
 .navbar.scrolled{
-    background-color: var(--dark-gray);
+    background-color: rgba(71,75,79,.75);
     transition: background-color 200ms;
 }
 .fa-code{
@@ -75,44 +75,38 @@ body{
 /* Hero Section End */
 
 /* About Me Section */
-#about-me{
-    /* background: white;
-    padding: 30px 0 50px; */
-}
+
 
 .section-head{
     color: var(--dark);
     font-weight: 400;
-    font-size: 3.6em;
-    margin: 0 auto 35px auto;
+    font-size: 3.0em;
+    margin: 50px auto 35px auto;
     padding-bottom: 10px;
-    border-bottom: 3px solid var(--gray);
+    border-bottom: 2px solid var(--gray);
     text-align: center;
     width: 30%;
     min-width: 355px;
     letter-spacing: .1em;
 }
 
-.bio{
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; */
-}
-
 .bio img{
     
     max-width: 353px; 
+    margin-bottom: 40px;
 }
 
 .bio p {
-    /* text-align: left;
-    max-width: 50%;
-    min-width: 400px; */
-    font-size: 1.5em;
-    line-height: 2;
+    font-size: 1.4em;
+    line-height: 1.5;
     font-weight: 400;
     color: var(--dark);
+}
+
+.far{
+    font-size: 21em;
+    color: var(--gray);
+    margin-bottom: 40px;
 }
 /* About Me Section End */
 
@@ -125,10 +119,10 @@ body{
 .work-head{
     color: white;
     font-weight: 400;
-    font-size: 3.6em;
+    font-size: 3em;
     margin: 0 auto 35px auto;
     padding-bottom: 10px;
-    border-bottom: 3px solid var(--light-green);
+    border-bottom: 2px solid var(--light-green);
     text-align: center;
     width: 30%;
     min-width: 228px;
