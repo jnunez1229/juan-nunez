@@ -6,7 +6,7 @@
 
 *   Used CSS grid and flexbox to make website mobile responsive
 
-*   Link to Deployed Site: (https://jnunez1229.github.io/professional-portfolio/#)
+*   Link to Deployed Site: (https://jnunez1229.github.io/juan-nunez/#)
 
 ### Screenshot
 
