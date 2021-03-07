@@ -154,7 +154,7 @@ body{
     text-align: center;
     position: relative;
     bottom: 1400px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .grid-item:hover .label{
